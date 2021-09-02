@@ -1,0 +1,49 @@
+D:\Truffle\Assignment3abc>truffle migrate --network ropsten
+
+Compiling your contracts...
+===========================
+> Compiling .\contracts\Assignment3abc.sol
+> Artifacts written to D:\Truffle\Assignment3abc\build\contracts
+> Compiled successfully using:
+   - solc: 0.8.0+commit.c7dfd78e.Emscripten.clang
+
+
+
+Starting migrations...
+======================
+> Network name:    'ropsten'
+> Network id:      3
+> Block gas limit: 10000000 (0x989680)
+
+
+2_deploy_3abc.js
+================
+
+   Deploying 'ERC20'
+   -----------------
+   > transaction hash:    0x208de404139407e0f9db5046d5bbfb86b15b14b56126310ffef7
+69c70b11133a
+   > Blocks: 3            Seconds: 21
+   > contract address:    0x5254a8CD02c13e7f39D0C7bf4ECd5e132874A3f5
+   > block number:        10958089
+   > block timestamp:     1630593505
+   > account:             0xC7fE570c20F87b93574c35DF6a2F99EA53a439AB
+   > balance:             5.281728147448926881
+   > gas used:            2192866 (0x2175e2)
+   > gas price:           4.012910557 gwei
+   > value sent:          0 ETH
+   > total cost:          0.008799775121486362 ETH
+
+   Pausing for 2 confirmations...
+   ------------------------------
+   > confirmation number: 1 (block: 10958091)
+   > confirmation number: 3 (block: 10958093)
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.008799775121486362 ETH
+
+
+Summary
+=======
+> Total deployments:   1
+> Final cost:          0.008799775121486362 ETH
